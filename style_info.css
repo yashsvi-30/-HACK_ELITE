@@ -1,0 +1,164 @@
+body{
+    background-color: aliceblue;
+    margin-left:150px;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color:royalblue; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav h5{
+      text-align: center;
+      color:white;
+  }
+  .sidenav a {
+    padding: 8px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+ /* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    padding : 300px 0x 0px 0px;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+   
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color:black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: aliceblue;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    padding: 30px 400px 0px 0px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom:8px;
+    margin-left: 300px;
+    font-size: 17px;
+    text-align:centre;
+    background-color:aliceblue;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+  .record{
+      margin-left:100px;
+      font-size: 28px;
+      color: black;
+  }
+  .heading{
+      margin-right: 500px;
+  }
+
+  
+  .button{
+      float : right;
+      margin-top : 8px;
+      margin-right : 10px;
+      text-align: centre;
+      padding-left : 30px;
+      padding-right: 30px;
+      background-color: royalblue;
+      color : white;
+      border : none;
+      height : 40px;
+  }
+
+  .coupon {
+    background-color : white;
+    margin-left: 150px;
+    padding-left : 5px;
+    width: 300px;
+    height:200px;
+    margin-right:600px;
+  }
+  
+  h3{
+      text-align: centre;
+
+  }
+
+  .coupon1 {
+    background-color : white;
+    margin-left: 500px;
+    margin-top:-215px;
+    padding-left : 5px;
+    width: 300px;
+    height:200px;
+  }
+  
+  .navigation{
+      background-color: white;
+      color:black;
+      width : 400px;
+      height: 300px;
+      margin-left: 150px;
+      padding-left: 9px; 
+  }
+  
+ .navigation h3{
+     padding-top: 4px;
+     padding-left: 4px;
+     
+ }
+ 
